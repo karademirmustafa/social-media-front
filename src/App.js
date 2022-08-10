@@ -19,7 +19,7 @@ async function handleSubmit(e,password,username){
       password,username
     }
   }
-  await axios(config).then(res=>console.log(res.data))
+  await axios(config).then(res=>console.log(res.data)).catch(err=>console.error(err))
 console.log("asd")
 }
 
