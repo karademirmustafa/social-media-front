@@ -10,7 +10,7 @@ const [username,setUsername]=useState("");
 const [token,setToken]=useState("");
 async function handleSubmit(e,password,username){
   e.preventDefault();
-  const url="http://social-media-homes.herokuapp.com/authenticate"
+  const url="https://social-media-homes.herokuapp.com/authenticate"
   const config ={
     method:"POST",
     url,
